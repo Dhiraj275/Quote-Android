@@ -19,7 +19,7 @@ var colorArray = ['#FF6633', '#FFB399', '#FF33FF', '#FFFF99', '#00B3E6',
   realdata= await data.json();
   rawStr=""
   if(realdata.length){
-    for(let i=0; i<51; i++){
+    for(let i=0; i<realdata.length; i++){
     rawStr=rawStr+`<div style="background:${colorArray[i]};" class="box-container">
          <div class="quote-box">
            <q>
