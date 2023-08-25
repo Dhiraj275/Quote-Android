@@ -36,7 +36,9 @@ var colorArray = ['#FF6633', '#FFB399', '#FF33FF', '#FFFF99', '#00B3E6',
   
   }
  }
- catch(Error){}
+ catch(Error){
+	 console.error(Error)
+ }
 };
 fetchQuote()
 
